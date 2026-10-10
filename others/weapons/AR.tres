@@ -9,7 +9,9 @@
 [resource]
 script = ExtResource("1_l1e0n")
 weapon_texture = ExtResource("5_yagfa")
+weapon_id = 1
 bullet_speed = 8
+bullet_id = 1
 bullet_sprite = ExtResource("1_yagfa")
 bullet_dmg = 35
 mag_size = 40

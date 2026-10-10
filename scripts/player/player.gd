@@ -182,6 +182,7 @@ func pickup_weapon(data:weapon_data):
 	if weapon_ids[id]==0:
 		weapon_ids[id] = 1
 		weapon_resources.append(data)
+		change_weapon()
 	if reloading and current_weapon == data:
 		reloading = false 
 		ammo_in_mag = mag
